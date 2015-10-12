@@ -2,6 +2,9 @@
 Learning selenium in scope of "full-stack" activities.  
 Basic selenium spring-boot setup and simple test for [TodoMVC](http://todomvc.com/examples/angularjs/) application.
 
+##tests
+`TodoMvcAngularTest` - plain jUnit
+`TodoMvcAngularTestSpring` - spring-test
 
 ## grid setup
 Use `remote` profile to use grid instead of local.   
