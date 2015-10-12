@@ -1,6 +1,6 @@
 # learning basic selenium
 Learning selenium in scope of "full-stack" activities.  
-Basic selenium spring-boot setup and simple test for TodoMVC application.
+Basic selenium spring-boot setup and simple test for [TodoMVC](http://todomvc.com/examples/angularjs/) application.
 
 
 ## grid setup
