@@ -9,6 +9,7 @@ Basic selenium spring-boot setup and simple test for [TodoMVC](http://todomvc.co
 ## grid setup
 Use `remote` profile to use grid instead of local.   
 See [docker-compose.yml](https://github.com/golonzovsky/selenium/blob/master/docker-compose-selenium-grid/docker-compose.yml) to start a selenium grid. 
+`http://localhost:4444/grid/console` to see grid dashboard.   
 Use `docker-compose up -d` command to start grid.  
 `docker-compose scale nodechrome=5` - scale chrome nodes.  
 `docker ps` - see what is running:
