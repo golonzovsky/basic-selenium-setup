@@ -7,7 +7,7 @@ Basic selenium spring-boot setup and simple test for [TodoMVC](http://todomvc.co
 `TodoMvcAngularTestSpring` - spring-test
 
 ## grid setup
-Use `remote` profile to use grid instead of local.   
+Grid is started with `docker-compose`. See `docker` image [repo](https://github.com/SeleniumHQ/docker-selenium) for VNC access, and setup customization.
 See [docker-compose.yml](https://github.com/golonzovsky/selenium/blob/master/docker-compose-selenium-grid/docker-compose.yml) to start selenium grid.  
 [`http://localhost:4444/grid/console`](http://localhost:4444/grid/console) to see grid dashboard.   
 Use `docker-compose up -d` command to start grid.  
@@ -23,3 +23,7 @@ cabc55db8d2d        selenium/node-chrome-debug    "/opt/bin/entry_point"   11 ho
 ```
 
 More datails about grid setup at https://sandro-keil.de/blog/2015/03/23/selenium-grid-in-minutes-with-docker/
+
+## using grid from tests
+Use `remote` profile to use grid instead of local.     
+Use `selenium.gridEndpoint` property to provide non-local grid endpoint.
