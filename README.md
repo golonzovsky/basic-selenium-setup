@@ -22,4 +22,4 @@ cabc55db8d2d        selenium/node-chrome-debug    "/opt/bin/entry_point"   11 ho
 7701797ba81f        selenium/hub                  "/opt/bin/entry_point"   11 hours ago         Up 3 seconds        0.0.0.0:4444->4444/tcp    dockercomposeseleniumgrid_selhub_1
 ```
 
-More datails at https://sandro-keil.de/blog/2015/03/23/selenium-grid-in-minutes-with-docker/
+More datails about grid setup at https://sandro-keil.de/blog/2015/03/23/selenium-grid-in-minutes-with-docker/
