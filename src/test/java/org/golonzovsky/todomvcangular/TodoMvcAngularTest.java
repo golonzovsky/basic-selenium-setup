@@ -10,11 +10,13 @@ import org.golonzovsky.todomvcangular.pages.TodoPage;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
 
+@Ignore
 public class TodoMvcAngularTest {
   private ChromeDriver driver;
   private TodoPage page;
