@@ -20,7 +20,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = SeleniumTestConfig.class)
 @ActiveProfiles("remote")
-public class TodoMvcAngularTestSpring {
+public class TodoMvcAngularSpringTest {
 
   @Autowired ScreenShotService screenShotService;
   @Autowired TodoPage page;
