@@ -43,6 +43,7 @@ public class SeleniumTestConfig {
   @Bean
   @Profile("remote")
   public WebDriver webDriverRemote(@Value("${selenium.gridEndpoint}") String gridEndpoint) throws MalformedURLException {
+    log.info("selenium grid endpoint: {}", gridEndpoint);
     return new RemoteWebDriver(new URL(gridEndpoint), DesiredCapabilities.chrome());
   }
 }
